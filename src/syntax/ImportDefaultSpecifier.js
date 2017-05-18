@@ -9,7 +9,7 @@ class ImportDefaultSpecifier extends BaseSyntax {
    * @param {Identifier} local  The local variable where to import
    */
   constructor(local) {
-    super('ImportDefaultSpecifier');
+    super('ImportNamespaceSpecifier');
     this.local = local;
   }
 }
